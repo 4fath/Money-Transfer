@@ -5,8 +5,50 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.fath.revolut</groupId>
-    <artifactId>basic-money-transfer</artifactId>
+    <artifactId>simple-money-transfer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-core</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-vertx -->
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-vertx</artifactId>
+            <version>3.6.3.Final</version>
+        </dependency>
+
+        <!-- Jackson support -->
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jackson-provider</artifactId>
+            <version>2.3.1.GA</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+
+    </dependencies>
 
     <build>
         <plugins>
